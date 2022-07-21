@@ -1,7 +1,5 @@
 from django.http import JsonResponse
-from django.http import HttpResponse
 from rest_framework.views import APIView
-import http.client
 import json
 
 #Good
