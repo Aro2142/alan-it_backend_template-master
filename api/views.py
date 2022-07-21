@@ -4,6 +4,9 @@ import json
 
 #Good
 class GetData(APIView):
+
+
+    #The best code? Yes, because not need convert and...and min lines Nya
     def get(self, request):
        with open('short.json', 'r', encoding = 'utf-8') as f:
         data = json.load(f)
