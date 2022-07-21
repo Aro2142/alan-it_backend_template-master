@@ -5,7 +5,7 @@ import pandas as pd
 import http.client
 import json
 
-
+#Good
 class GetData(APIView):
     def get(self, request):
        with open('short.json', 'r', encoding = 'utf-8') as f:
